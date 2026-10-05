@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    color: #222;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #1f4e79;
+    border-bottom: 3px solid #1f4e79;
+    padding-bottom: 15px;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #1f4e79;
+}
+
+.katalog {
+    background-color: #eef5fb;
+    border-left: 5px solid #1f4e79;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.katalog p {
+    margin-bottom: 0;
+    word-break: break-all;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    border: 1px solid #aaa;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1f4e79;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.formularz {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #1f4e79;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #163a5a;
+}
+
+.sukces {
+    color: green;
+    font-weight: bold;
+}
+
+.blad {
+    color: red;
+    font-weight: bold;
+}
